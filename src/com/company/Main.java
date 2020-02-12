@@ -17,7 +17,10 @@ public class Main {
         myLinkList.deleteAt(4);
         myLinkList.insertAtEnd("END");
         myLinkList.show();
-        myLinkList.Array();
+        Object one = myLinkList.array().get(1);
+        System.out.println("------------------------------------------------");
+        System.out.println(one);
+        myLinkList.find("two");
 
 
 

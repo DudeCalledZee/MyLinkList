@@ -29,7 +29,6 @@ public class MyLinkList {
         while(node.nextNode != null) {
             System.out.println(node.data);
             node = node.nextNode;
-
         }
         System.out.println(node.data);
     }
@@ -74,7 +73,7 @@ public class MyLinkList {
 
     }
 
-    public void Array(){
+    public ArrayList array(){
         Node node = headNode;
         ArrayList<Node> arrayOfNodes = new ArrayList<>();
         while(node.nextNode != null) {
@@ -82,8 +81,7 @@ public class MyLinkList {
             node = node.nextNode;
         }
         arrayOfNodes.add(node);
-
-        System.out.println(arrayOfNodes);
+        return arrayOfNodes;
     }
 
 }
