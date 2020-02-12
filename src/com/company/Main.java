@@ -4,18 +4,20 @@ public class Main {
 
     public static void main(String[] args) {
         MyLinkList myLinkList = new MyLinkList();
-        myLinkList.insert("One");
-        myLinkList.insert("two");
-        myLinkList.insert("three");
-        myLinkList.insert("five");
-        myLinkList.insert("six");
+        myLinkList.insertAtEnd("One");
+        myLinkList.insertAtEnd("two");
+        myLinkList.insertAtEnd("three");
+        myLinkList.insertAtEnd("five");
+        myLinkList.insertAtEnd("six");
         myLinkList.insertAtStart("Zero");
-        myLinkList.insertAt(4,"four");
-        myLinkList.insertAt(4,"four");
+        myLinkList.insertAtIndex(4,"four");
+        myLinkList.insertAtIndex(4,"four");
         myLinkList.show();
         System.out.println("------------------------------------------------");
         myLinkList.deleteAt(4);
+        myLinkList.insertAtEnd("END");
         myLinkList.show();
+
 
 
      }

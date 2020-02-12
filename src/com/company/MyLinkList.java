@@ -1,9 +1,10 @@
 package com.company;
 
+
 public class MyLinkList {
     Node headNode;
 
-    public void insert(String data) {
+    public void insertAtEnd(String data) {
         Node newNode = new Node();
         newNode.data = data;
         newNode.nextNode = null;
@@ -16,7 +17,6 @@ public class MyLinkList {
                tempNode = tempNode.nextNode;
            }
            tempNode.nextNode = newNode;
-
         }
     }
 
@@ -38,7 +38,7 @@ public class MyLinkList {
         headNode = newNode;
         }
 
-    public void insertAt(int index, String data) {
+    public void insertAtIndex(int index, String data) {
         if (index == 0) {
             insertAtStart(data);
         } else {
@@ -69,6 +69,13 @@ public class MyLinkList {
         }
 
     }
+
+
+
+
+
+
+
 
 
 }
