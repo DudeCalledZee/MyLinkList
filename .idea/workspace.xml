@@ -113,22 +113,22 @@
       <screen x="0" y="0" width="1440" height="2530" />
     </state>
     <state x="542" y="1164" key="Github.CreateGistDialog/1440.0.1920.1050/0.0.1440.2530@0.0.1440.2530" timestamp="1581530712106" />
-    <state width="1397" height="906" key="GridCell.Tab.0.bottom" timestamp="1581535336832">
+    <state width="1397" height="906" key="GridCell.Tab.0.bottom" timestamp="1581535369350">
       <screen x="0" y="0" width="1440" height="2530" />
     </state>
-    <state width="1397" height="906" key="GridCell.Tab.0.bottom/1440.0.1920.1050/0.0.1440.2530@0.0.1440.2530" timestamp="1581535336832" />
-    <state width="1397" height="906" key="GridCell.Tab.0.center" timestamp="1581535336832">
+    <state width="1397" height="906" key="GridCell.Tab.0.bottom/1440.0.1920.1050/0.0.1440.2530@0.0.1440.2530" timestamp="1581535369350" />
+    <state width="1397" height="906" key="GridCell.Tab.0.center" timestamp="1581535369350">
       <screen x="0" y="0" width="1440" height="2530" />
     </state>
-    <state width="1397" height="906" key="GridCell.Tab.0.center/1440.0.1920.1050/0.0.1440.2530@0.0.1440.2530" timestamp="1581535336832" />
-    <state width="1397" height="906" key="GridCell.Tab.0.left" timestamp="1581535336832">
+    <state width="1397" height="906" key="GridCell.Tab.0.center/1440.0.1920.1050/0.0.1440.2530@0.0.1440.2530" timestamp="1581535369350" />
+    <state width="1397" height="906" key="GridCell.Tab.0.left" timestamp="1581535369350">
       <screen x="0" y="0" width="1440" height="2530" />
     </state>
-    <state width="1397" height="906" key="GridCell.Tab.0.left/1440.0.1920.1050/0.0.1440.2530@0.0.1440.2530" timestamp="1581535336832" />
-    <state width="1397" height="906" key="GridCell.Tab.0.right" timestamp="1581535336832">
+    <state width="1397" height="906" key="GridCell.Tab.0.left/1440.0.1920.1050/0.0.1440.2530@0.0.1440.2530" timestamp="1581535369350" />
+    <state width="1397" height="906" key="GridCell.Tab.0.right" timestamp="1581535369350">
       <screen x="0" y="0" width="1440" height="2530" />
     </state>
-    <state width="1397" height="906" key="GridCell.Tab.0.right/1440.0.1920.1050/0.0.1440.2530@0.0.1440.2530" timestamp="1581535336832" />
+    <state width="1397" height="906" key="GridCell.Tab.0.right/1440.0.1920.1050/0.0.1440.2530@0.0.1440.2530" timestamp="1581535369350" />
     <state width="1397" height="944" key="GridCell.Tab.1.bottom" timestamp="1581533635303">
       <screen x="0" y="0" width="1440" height="2530" />
     </state>
@@ -164,7 +164,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

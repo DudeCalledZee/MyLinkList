@@ -38,24 +38,24 @@ public class MyLinkList {
         headNode = newNode;
         }
 
-        public void insertAt(int index, String data) {
-            if (index == 0) {
-                insertAtStart(data);
-            } else {
-                Node newNode = new Node();
-                newNode.data = data;
-                newNode.nextNode = null;
+    public void insertAt(int index, String data) {
+        if (index == 0) {
+            insertAtStart(data);
+        } else {
+            Node newNode = new Node();
+            newNode.data = data;
+            newNode.nextNode = null;
 
-                Node tempNode = headNode;
-                for (int i = 0; i < index - 1; i++) {
-                    tempNode = tempNode.nextNode;
-                }
-                newNode.nextNode = tempNode.nextNode;
-                tempNode.nextNode = newNode;
+            Node tempNode = headNode;
+            for (int i = 0; i < index - 1; i++) {
+                tempNode = tempNode.nextNode;
             }
+            newNode.nextNode = tempNode.nextNode;
+            tempNode.nextNode = newNode;
         }
+    }
 
-        public void deleteAt(int index) {
+    public void deleteAt(int index) {
         if (index == 0){
             headNode = headNode.nextNode;
         } else {
@@ -68,15 +68,7 @@ public class MyLinkList {
             tempNode.nextNode = nodeToDelete.nextNode;
         }
 
-            }
-
-
-
-
-
-
-
-
+    }
 
 
 }
