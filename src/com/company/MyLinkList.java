@@ -1,6 +1,9 @@
 package com.company;
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class MyLinkList {
     Node headNode;
 
@@ -26,6 +29,7 @@ public class MyLinkList {
         while(node.nextNode != null) {
             System.out.println(node.data);
             node = node.nextNode;
+
         }
         System.out.println(node.data);
     }
@@ -70,12 +74,28 @@ public class MyLinkList {
 
     }
 
+    public void Array(){
+        Node node = headNode;
+        ArrayList<Node> arrayOfNodes = new ArrayList<>();
+        while(node.nextNode != null) {
+            arrayOfNodes.add(node);
+            node = node.nextNode;
+        }
+        arrayOfNodes.add(node);
 
-
-
-
-
-
-
+        System.out.println(arrayOfNodes);
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+

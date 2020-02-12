@@ -17,6 +17,7 @@ public class Main {
         myLinkList.deleteAt(4);
         myLinkList.insertAtEnd("END");
         myLinkList.show();
+        myLinkList.Array();
 
 
 
