@@ -84,6 +84,22 @@ public class MyLinkList {
         return arrayOfNodes;
     }
 
+    public void find(String data){
+        Node node = headNode;
+        int index = 0;
+
+        while(node.nextNode != null) {
+            if (node.data == data) {
+                System.out.println(node.data + " is at index " + index);
+                index++;
+            }
+            index++;
+            node = node.nextNode;
+        } if (node.data == data) {
+            System.out.println(node.data + " is at index " + index);
+        }
+    }
+
 }
 
 

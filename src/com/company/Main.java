@@ -20,7 +20,8 @@ public class Main {
         Object one = myLinkList.array().get(1);
         System.out.println("------------------------------------------------");
         System.out.println(one);
-        myLinkList.find("two");
+        System.out.println("------------------------------------------------");
+        myLinkList.find("Zero");
 
 
 
